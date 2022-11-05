@@ -4,6 +4,11 @@ using UnityEngine;
 
 public class EnemyAttack : MonoBehaviour
 {
+    ///VARIABLES
+    //initialize this variables
+    public int enemyATK, enemyHP;
+    public int playerHP, playerDEF;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -13,6 +18,7 @@ public class EnemyAttack : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        //ATK
+        playerHP = enemyATK - playerDEF;
     }
 }
