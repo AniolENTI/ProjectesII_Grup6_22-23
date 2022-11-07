@@ -6,6 +6,10 @@ TagManager:
   tags:
   - Enemy
   - Floor
+<<<<<<< Updated upstream
+=======
+  - Battle
+>>>>>>> Stashed changes
   layers:
   - Default
   - TransparentFX
