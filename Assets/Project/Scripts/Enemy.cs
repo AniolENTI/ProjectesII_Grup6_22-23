@@ -2,12 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player : MonoBehaviour
+public class Enemy : MonoBehaviour
 {
-    Enemy enemy;
+    Player player;
 
     ///VARIABLES
-    public int playerHP, playerDEF, playerATK, affinity;
+    public int enemyATK, enemyHP;
 
     // Start is called before the first frame update
     void Start()
@@ -19,9 +19,6 @@ public class Player : MonoBehaviour
     void Update()
     {
         //ATK
-        enemy.enemyHP = (playerATK - playerDEF) * affinity;
-
-        //Heal
-        playerHP++;
+        player.playerHP = enemyATK - player.playerDEF;
     }
 }

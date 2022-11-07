@@ -1,0 +1,23 @@
+SOUNDS FOR UNITY
+
+///MENU
+-Menu navigation: https://freesound.org/people/Bpianoholic/sounds/487613/
+-Snap a button: https://freesound.org/people/el_boss/sounds/628638/
+-Upgrade/looting: https://freesound.org/people/SergeQuadrado/sounds/567208/
+-Appear the logo: https://freesound.org/people/SergeQuadrado/sounds/567205/
+-Game menu: https://freesound.org/people/Luizguilherme_a/sounds/550988/
+
+
+///ATK
+https://freesound.org/people/cabusta9/sounds/443726/
+https://freesound.org/people/Herkules92/sounds/547600/
+https://freesound.org/people/Link-Boy/sounds/414834/
+Fav: https://freesound.org/people/Eponn/sounds/547042/
+
+///HEAL
+https://freesound.org/people/DrMinky/sounds/166188/
+https://freesound.org/people/DrMinky/sounds/166188/
+
+///RECEIVE DAMAGE
+https://freesound.org/people/MortisBlack/sounds/385046/
+https://freesound.org/people/dersuperanton/sounds/437651/
