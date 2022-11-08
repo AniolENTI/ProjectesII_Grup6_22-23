@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class BattleHUD : MonoBehaviour
+public class BattleHud : MonoBehaviour
 {
 
 	public Text nameText;
@@ -23,3 +23,4 @@ public class BattleHUD : MonoBehaviour
 	}
 
 }
+

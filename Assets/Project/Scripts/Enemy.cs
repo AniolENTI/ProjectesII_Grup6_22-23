@@ -6,20 +6,14 @@ public class Enemy : MonoBehaviour
 {
     Player player;
 
-<<<<<<< Updated upstream
-    ///VARIABLES
-    public int enemyATK, enemyHP;
-
-=======
     //VARIABLES
     public int enemyATK, enemyHP;
 
 
->>>>>>> Stashed changes
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
