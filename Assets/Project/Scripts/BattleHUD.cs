@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class BattleHud : MonoBehaviour
+public class BattleHUD : MonoBehaviour
 {
 
 	public Text nameText;
@@ -12,6 +12,7 @@ public class BattleHud : MonoBehaviour
 
 	public void SetHUD(Unit unit)
 	{
+		nameText.text = unit.unitName;
 		levelText.text = "Lvl " + unit.unitLevel;
 		hpSlider.maxValue = unit.maxHP;
 		hpSlider.value = unit.currentHP;
@@ -23,4 +24,3 @@ public class BattleHud : MonoBehaviour
 	}
 
 }
-

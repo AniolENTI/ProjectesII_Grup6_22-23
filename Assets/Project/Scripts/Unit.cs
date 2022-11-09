@@ -4,29 +4,30 @@ using UnityEngine;
 
 public class Unit : MonoBehaviour
 {
-    //VARIABLES
-    public int unitLevel;
-    public int playerUnit;
 
-    public int damage;
+	public string unitName;
+	public int unitLevel;
 
-    public int maxHP;
-    public int currentHP;
+	public int damage;
 
-    public bool TakeDamage(int dmg)
-    {
-        currentHP -= dmg;
+	public int maxHP;
+	public int currentHP;
 
-        if (currentHP <= 0)
-            return true;
-        else
-            return false;
-    }
+	public bool TakeDamage(int dmg)
+	{
+		currentHP -= dmg;
 
-    public void Heal(int amount)
-    {
-        currentHP += amount;
-        if (currentHP > maxHP)
-            currentHP = maxHP;
-    }
+		if (currentHP <= 0)
+			return true;
+		else
+			return false;
+	}
+
+	public void Heal(int amount)
+	{
+		currentHP += amount;
+		if (currentHP > maxHP)
+			currentHP = maxHP;
+	}
+
 }
