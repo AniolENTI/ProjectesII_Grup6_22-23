@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public enum BattleState { START, PLAYERTURN, ENEMYTURN, WON, LOST }
 
@@ -106,6 +107,9 @@ public class BattleSystem : MonoBehaviour
 		{
 			dialogueText.text = "You were defeated.";
 		}
+
+		SceneManager.UnloadScene("Battle Scene");
+		SceneManager.SetActiveScene(SceneManager.GetSceneByName("LootRoom"));
 	}
 
 	void PlayerTurn()
